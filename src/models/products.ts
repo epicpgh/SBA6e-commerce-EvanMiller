@@ -19,8 +19,8 @@ getPriceWithDiscount(): number{
 displayDetails(): void {
 console.log(`Product: ${this.title}`);
 console.log(`Product: ${this.price.toFixed(2)}`);
-console.log(`Product: ${this.discountPercentage}`);
-console.log(`Product: ${this.getPriceWithDiscount().toFixed?(2)}`);
+console.log(`Product: ${this.discountPercentage}%`);
+console.log(`Product: ${this.getPriceWithDiscount().toFixed(2)}`);
 }
 
 
